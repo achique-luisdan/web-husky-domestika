@@ -1,6 +1,6 @@
 /* Estilos Generales */
 body {
-    background-image: url(imgs/pattern.jpg);
+    background-image: url(../imgs/pattern.jpg);
     background-size: contain;
     font-family: 'Mochiy Pop One', sans-serif;
 }
