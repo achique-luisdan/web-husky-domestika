@@ -5,71 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Doméstika</title>
-    <meta name="author" content="Achique Luis Daniel - IG: @achique.luisdan">
-    <meta name="description" content="Práctica Unidad 2. Estructura HTML."/>
+    <meta name="author" content="Achique Luis Daniel - IG: @achique.luisdan" />
+    <meta name="description" content="Práctica Unidad 2. Estructura HTML." />
+    <link rel="stylesheet" href="css/styles.css" />
     <!-- 
         Curso Introducción al Desarrollo Web Responsive con HTML y CSS      
-        Prácticas de Unidad 2. Estructura HTML  
+        Prácticas de Unidad 3. Empezando con CSS  
     -->
   </head>
   <body>
-    <p>
-      Un ejemplo de texto.<br />
-      Otra frase.
-    </p>
-
-    <p>Un ejemplo de texto.</p>
-
-    <p>Un ejemplo de texto.</p>
-
-    <p>Un ejemplo de texto.</p>
-
-    <h1>Título de primer nivel</h1>
-    <h2>Título de segundo nivel</h2>
-    <h3>Título de tercer nivel</h3>
-    <h4>Título de cuarto nivel</h4>
-    <h5>Título de quinto nivel</h5>
-    <h6>Título de sexto nivel</h6>
-
-    <p>
-      em:
-      <br />
-      Podemos dar enfasís a un <em>texto de algún párrafo. </em> <br />
-      El texto que se le haga enfásis aparece en el navegador en cursiva.
-    </p>
-
-    <p>
-      strong:
-      <br />
-      Podemos dar importancia a un
-      <strong> texto de algún párrafo. </strong> <br />
-      El texto que se le importancia aparece en el navegador en negrita.
-    </p>
-
-    <p>
-      span:
-      <br />
-      Podemos agrupar un
-      <span> texto de algún párrafo. </span> <br />
-      para aplicarle algún estilo con CSS, o comportamiento con JavaScript.
-    </p>
-
-    <div id="navbar-husky"></div>
-
-    <div id="div-husky">
-      <h2>Fotos de Husky</h2>
-     
-      <h3>Etiqueta de Imagen</h3>
-
+    <section class="container">
+      <div class="box-title">
+        <h2 class="title">Fotos de Husky</h2>
+      </div>
+      <hr />
       <img src="imgs/perro.jpeg" alt="Perro Husky Siberiano." />
+      <hr>
+      
+      <h3 class="subtitle">Categorías</h3>
      
-      <br />
-      Una forma de subir un nivel es utilizar dos puntos barra (../).
-      <br />
 
-      <h2>Etiqueta de Enlace</h2>
-
-      <ul>
+      <ul class="ul-categories">
         <li>
           <a href="husky-repose.html">Descansando</a>
         </li>
@@ -77,13 +33,6 @@
           <a href="husky-happy.html">Feliz</a>
         </li>
       </ul>
-
-      <h2>RECURSOS ADICIONALES</h2>
-      <hr>
-      <h3> 
-        <a href="https://developer.mozilla.org/en/docs/Web/HTML/Element" >Etiquetas HTML (info mozilla.orh) </a> 
-      </h3>
-
-    </div>
+    </section>
   </body>
 </html>

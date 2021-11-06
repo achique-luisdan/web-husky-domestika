@@ -1,0 +1,51 @@
+/* Estilos Generales */
+
+.container {
+    padding: 2%;
+    text-align: center;
+    background: black;
+}
+
+.box-title {
+    background: white;
+}
+
+.title {
+    font-size: 30px;
+    font-style: italic;
+    line-height: 1.2;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.subtitle {
+    color: orange;
+    padding: 0px;
+    margin: 0px;
+    line-height: 2.0;
+}
+
+.ul-categories {
+    padding: 0px;
+}
+
+.ul-categories li {
+    list-style: none;
+}
+
+.ul-categories li a {
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+    line-height: 2.0;
+}
+
+.ul-categories li a:hover {
+    text-decoration: underline;
+}
+
+.ul-categories li a:visited {
+
+    text-decoration: none;
+}
